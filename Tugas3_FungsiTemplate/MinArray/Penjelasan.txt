@@ -1,0 +1,4 @@
+Pertanyaan : Didefinisikan kelas Jam HH:MM:SS. Apakah mungkin MinArray
+digunakan untuk data bertype Jam??
+
+Jawaban    : Apabila di dalam class Jam telah dilakukan implementasi untuk berinteraksi dengan fungsi min(), maka fungsi MinArray dapat dijalankan. Implementasi tersebut dilakukan dengan menggunakan function overload pada fungsi min() yang sudah menjadi fungsi bawaan dari C++. Akan tetapi, apabila belum ada implementasi untuk fungsi tersebut, maka akan terjadi error.

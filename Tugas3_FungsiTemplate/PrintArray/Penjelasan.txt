@@ -1,0 +1,3 @@
+Pertanyaan : Bagaimana kalau yang ingin dicetak adalah Point?
+
+Jawaban    : Apabila di dalam class Point telah dilakukan implementasi untuk berinteraksi dengan operator ostream (<<), maka fungsi PrintArray dapat dijalankan. Implementasi tersebut dilakukan dengan menggunakan function overload pada operator << ostream. Akan tetapi, apabila belum ada implementasi untuk operator tersebut, maka akan terjadi error. 
